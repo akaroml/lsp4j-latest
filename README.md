@@ -1,2 +1,5 @@
 # lsp4j-latest
-The latest p2 build of LSP4J
+
+The p2 build of latest LSP4J source code.
+
+Kudos to @kittaakos for the [oringal source](https://github.com/kittaakos/lsp4j-call-hierarchy).
