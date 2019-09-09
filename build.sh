@@ -2,7 +2,7 @@
 # Script to build and update this p2 update site with the most latest LSP4J source.
 
 rm -rf ./lsp4j/ \
-&& git clone --single-branch -b diagnostic-tag https://github.com/akaroml/lsp4j.git \
+&& git clone --single-branch -b dt-capabilities https://github.com/akaroml/lsp4j.git \
 && ./lsp4j/gradlew -p lsp4j build install generateP2Build --refresh-dependencies \
 && mvn -f ./lsp4j/releng/pom.xml clean verify \
 && rm -rf ./p2/ \
